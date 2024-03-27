@@ -1,4 +1,6 @@
 # Changelog
+### [1.0.4](https://github.com/nekobc1998923/typescript-sdk-starter/compare/v1.0.3...v1.0.4) (2024-03-27)
+
 ### [1.0.3](https://github.com/nekobc1998923/typescript-sdk-starter/compare/v1.0.2...v1.0.3) (2024-03-27)
 
 ### [1.0.2](https://github.com/nekobc1998923/typescript-sdk-starter/compare/v1.0.0...v1.0.2) (2021-12-29)
