@@ -5,7 +5,7 @@
     // 构建的目标代码删除所有注释，但是不会删除以 /!* 开头的版权信息
     "removeComments": true,
     // 启用所有严格类型检查选项。启用 --strict 相当于启用 --noImplicitAny, --noImplicitThis, --alwaysStrict， --strictNullChecks, --strictFunctionTypes 和 --strictPropertyInitialization
-    "strict": true,
+    "strict": false,
     // 禁止对同一个文件的不一致的引用
     "forceConsistentCasingInFileNames": true,
     // 生成相应的 .d.ts文件

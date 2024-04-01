@@ -1,13 +1,12 @@
-interface ConfigOptions {
-  id: string;
-  url: string;
-}
+import requestSign from './ts/requestSign';
+import generateSession from './ts/generateSession';
+
 class LibraryStarter {
   public id: string;
 
   public url: string;
 
-  constructor(options: ConfigOptions) {
+  constructor(options: any) {
     this.id = options.id;
     this.url = options.url;
   }
@@ -20,4 +19,7 @@ class LibraryStarter {
   }
 }
 
+// 生成公私钥
+// 发起合约调用请求
+export { generateSession, requestSign };
 export default LibraryStarter;

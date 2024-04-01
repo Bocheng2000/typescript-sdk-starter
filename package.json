@@ -1,6 +1,6 @@
 {
-  "name": "typescript-sdk-starter",
-  "version": "1.0.4",
+  "name": "sdk-starter",
+  "version": "1.0.7",
   "private": false,
   "description": "A TypeScript SDK template starter",
   "main": "dist/typescript-sdk-starter.js",
@@ -39,7 +39,7 @@
     "standard-version",
     "jest"
   ],
-  "author": "菜猫子neko",
+  "author": "chengbo.chu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nekobc1998923/typescript-sdk-starter/issues"

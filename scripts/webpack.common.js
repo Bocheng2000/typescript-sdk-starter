@@ -15,7 +15,7 @@ module.exports = {
     // 打包成umd模块
     libraryTarget: 'umd',
     // libraryExport这个属性需要设置，否则导出后，外层会包有一层default
-    libraryExport: 'default',
+    // libraryExport: 'default',
     // 路径
     path: resolve(PROJECT_PATH, './dist'),
   },
