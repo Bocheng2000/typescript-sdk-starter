@@ -27,6 +27,11 @@ module.exports = {
       '@test': resolve(__dirname, '../test'),
     },
     extensions: ['.ts', '.tsx', '.js'],
+    fallback: {
+      crypto: require.resolve('crypto-browserify'),
+      vm: require.resolve('vm-browserify'),
+      "stream": require.resolve("stream-browserify")
+    },
   },
   plugins: [
     new WebpackBar({

@@ -1,4 +1,4 @@
-import requestSign from './ts/requestSign';
+import ChatUtils from './ts/ChatUtils';
 import generateSession from './ts/generateSession';
 
 class LibraryStarter {
@@ -21,5 +21,5 @@ class LibraryStarter {
 
 // 生成公私钥
 // 发起合约调用请求
-export { generateSession, requestSign };
+export { generateSession, ChatUtils };
 export default LibraryStarter;

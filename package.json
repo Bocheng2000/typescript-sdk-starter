@@ -1,9 +1,10 @@
 {
   "name": "sdk-starter",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "private": false,
   "description": "A TypeScript SDK template starter",
   "main": "dist/typescript-sdk-starter.js",
+  "types": "types/src/index.d.ts",
   "files": [
     "dist",
     "src",
@@ -16,6 +17,7 @@
     "test": "jest",
     "dev": "rimraf dist types && cross-env NODE_ENV=development webpack-dev-server --config ./scripts/webpack.dev.js",
     "build": "npm run lint && npm run test && rimraf dist types && cross-env NODE_ENV=production webpack --config ./scripts/webpack.prod.js",
+    "build-dev": "rimraf dist types && cross-env NODE_ENV=production webpack --config ./scripts/webpack.prod.js",
     "prepare": "husky install",
     "release": "standard-version",
     "release-major": "standard-version --release-as major",
@@ -89,6 +91,9 @@
     "@cosmjs/encoding": "^0.32.3",
     "@cosmjs/math": "^0.32.3",
     "@cosmjs/proto-signing": "^0.32.3",
-    "@cosmjs/stargate": "^0.32.3"
+    "@cosmjs/stargate": "^0.32.3",
+    "crypto-browserify": "^3.12.0",
+    "stream-browserify": "^3.0.0",
+    "vm-browserify": "^1.1.2"
   }
 }
