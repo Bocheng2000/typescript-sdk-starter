@@ -50,7 +50,7 @@ class EncryUtils {
     return ProofHoHash(pk, data, proof);
   }
 
-  static testVrf() {
+  static generateVrf() {
     // eslint-disable-next-line new-cap
     const EC = new elliptic.ec('secp256k1');
     const data = [1, 2, 3, 4, 5]; // data
