@@ -1,6 +1,6 @@
 {
   "name": "sdk-starter",
-  "version": "1.1.6",
+  "version": "1.1.8",
   "private": false,
   "description": "A TypeScript SDK template starter",
   "main": "dist/typescript-sdk-starter.js",
@@ -17,7 +17,6 @@
     "test": "jest",
     "dev": "rimraf dist types && cross-env NODE_ENV=development webpack-dev-server --config ./scripts/webpack.dev.js",
     "build": "npm run lint && npm run test && rimraf dist types && cross-env NODE_ENV=production webpack --config ./scripts/webpack.prod.js",
-    "build-dev": "rimraf dist types && cross-env NODE_ENV=production webpack --config ./scripts/webpack.prod.js",
     "prepare": "husky install",
     "release": "standard-version",
     "release-major": "standard-version --release-as major",
@@ -26,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nekobc1998923/typescript-sdk-starter.git"
+    "url": ""
   },
   "keywords": [
     "typescript",
@@ -41,12 +40,12 @@
     "standard-version",
     "jest"
   ],
-  "author": "chengbo.chu",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nekobc1998923/typescript-sdk-starter/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/nekobc1998923/typescript-sdk-starter#readme",
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/plugin-transform-runtime": "^7.16.5",

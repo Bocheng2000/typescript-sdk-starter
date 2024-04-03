@@ -30,8 +30,10 @@ class EncryUtils {
   }
 
   static async signData(data: string) {
+    // need generateKey first
     if (!this.privateKey || !this.publicKey) {
-      return '请重新发起签名';
+      // 请重新发起签名
+      return '';
     }
     const dataHash = await hash.sha256(data, 'hex');
     // console.log('this.privateKey: ', this.privateKey.toBuffer().toString('hex'));
