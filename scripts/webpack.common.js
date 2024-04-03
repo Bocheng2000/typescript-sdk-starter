@@ -30,7 +30,9 @@ module.exports = {
     fallback: {
       crypto: require.resolve('crypto-browserify'),
       vm: require.resolve('vm-browserify'),
-      "stream": require.resolve("stream-browserify")
+      stream: require.resolve('stream-browserify'),
+      assert: require.resolve('assert'),
+      Buffer: require.resolve('buffer'),
     },
   },
   plugins: [

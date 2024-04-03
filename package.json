@@ -1,6 +1,6 @@
 {
   "name": "sdk-starter",
-  "version": "1.1.0",
+  "version": "1.1.6",
   "private": false,
   "description": "A TypeScript SDK template starter",
   "main": "dist/typescript-sdk-starter.js",
@@ -53,7 +53,9 @@
     "@babel/preset-env": "^7.16.5",
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
+    "@types/elliptic": "^6.4.18",
     "@types/jest": "^27.0.3",
+    "@types/jsrsasign": "^10.5.13",
     "@typescript-eslint/eslint-plugin": "^5.7.0",
     "@typescript-eslint/parser": "^5.7.0",
     "babel-loader": "^8.2.3",
@@ -92,8 +94,15 @@
     "@cosmjs/math": "^0.32.3",
     "@cosmjs/proto-signing": "^0.32.3",
     "@cosmjs/stargate": "^0.32.3",
+    "@idena/vrf-js": "^1.0.1",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
+    "elliptic": "^6.5.5",
+    "eosjs-ecc": "^4.0.7",
+    "lodash-es": "^4.17.21",
     "stream-browserify": "^3.0.0",
-    "vm-browserify": "^1.1.2"
+    "vm-browserify": "^1.1.2",
+    "websocket": "^1.0.34"
   }
 }
